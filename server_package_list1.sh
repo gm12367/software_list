@@ -1,7 +1,7 @@
 #!/bin/bash
-HOST=10.71.128.201
-USER=acadmin
-PASS='Michelin$123'
+HOST=<VM IP>
+USER=<username>
+PASS=<password>
 filename=`hostname`_package_list
 
 yum list installed > package_list.txt
